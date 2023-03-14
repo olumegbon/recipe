@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe finder</title>
+	<link rel="stylesheet" href="style.css"><!-----------
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
+    
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    -
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+--------->
+</head>
+<body>
+   
+<!-------------
+	<main>
+		<section id="goals">
+			<h2>My Goals</h2>
+			<form>
+				<label for="goal">Add a goal:</label>
+				<input type="text" id="goal" name="goal" required>
+				<button type="submit">Add</button>
+			</form>
+			<ul id="goal-list">
+				<!-The goals will be dynamically added here using JavaScript --
+			</ul>
+		</section>
+<button id="search">Search</button>
+		<section id="progress">
+			<h2>My Progress</h2>
+			<div id="progress-chart">
+				<!- The progress chart will be dynamically added here using JavaScript --
+			</div>
+		</section>
+	</main>--------->
+
+<!------------
+<div class="container">
+<h1>Recipe genarator</h1>
+<form>
+<input type="text" id="ingredientInput"> 
+<button type="button" id="addButton" onclick="addIngredient()"> Add Ingredient</button>
+</form>
+
+<div id="ingredientList"></div>
+<button type="button" id="generateButton" onclick="generate()">generate</button>
+</div>-------->
+
+
+<!--------
+
+<h1> <span>Find meals for your ingredients</span></h1>
+
+<label for="recipeInput">Enter recipe ingredients (separated by commas):</label>
+
+
+<input type="text" id="recipeInput">
+<button id="searchBtn">Search</button>
+
+<h3>Get Recipe below:</h3>
+<div id="recipeList"></div>----->
+
+<div class="container">
+<br>
+	<h1> <span>Find meals for your ingredients</span></h1>
+	<br>
+	
+<label for="recipeInput">Enter recipe ingredients (separated by commas):</label>
+	<form id="recipeForm">
+			
+	<input type="text" id="recipeInput" placeholder="Search...">
+	<button type="submit" id="searchBtn">Search</button>
+	
+</form>
+  <h3>Get Recipe below:</h3>
+  <div id="recipeList"></div></div>
+
+<!---------------
+  <div class="container">
+	<h1>Recipe Finder</h1>
+	<form class="form-group">
+	  <input type="text" class="recipe-input" placeholder="Enter ingredients...">
+	  <button type="submit" id="searchBtn">
+		
+	  </button>
+	</form>
+	<div id="recipeList"></div>
+  </div>-------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
